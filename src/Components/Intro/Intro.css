@@ -1,0 +1,145 @@
+.intro{
+    display: flex;
+    /* height: 77vh; */
+    height: 600px;
+    margin-top: 6rem;
+}
+.intro-left{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+    gap:2rem;
+    margin-left: 100px;
+}
+.intro-name{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
+.intro-name>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.intro-name>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.intro-name>:nth-child(3){
+    font-size: 17px;
+    font-weight: 200;
+    color: var(--gray);
+    margin-top: 10px;
+}
+.intro-btn{
+    width: 7rem;
+    height: 2.5rem;
+}
+.intro-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0;
+}
+.intro-icons>*{
+    transform: scale(0.5);
+    cursor: pointer;
+}
+.profile{
+    width: 410px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.intro-right{
+    flex: 1;
+    position: relative;
+}
+.intro-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.intro-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.intro-right>:nth-child(2){
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+
+}
+.intro-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+}
+.intro-right>:nth-child(4){
+    transform: scale(0.6);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+}
+.image{
+    width: 650px;
+    margin-left: 113px;
+    margin-top: -95px;
+}
+.icon{
+    font-size: 50px;
+    color: #e726ad;
+}
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: #e726ad;
+    z-index: -11111;
+    top: -11%;
+    left: 56%;
+    filter: blur(72px);
+}
+
+/* ------------breakpoint-------------- */
+
+@media only screen and (max-width: 913px) {
+    .intro{
+        display: block;
+        /* height: 77vh; */
+        height: 1100px;
+        margin-top: 6rem;
+    }
+  }
+@media only screen and (max-width: 790px) {
+    .intro{
+        flex-direction: row;
+        flex-direction: row-reverse;
+        height: 1000px;
+        margin-top: 20px;
+    }
+    .intro-name>:nth-child(2){
+        /* color: var(--orange); */
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+    }
+    .intro-name{
+        margin-right: 0px;
+    }
+    .intro-left{
+        margin-left: 10px;
+        order: 1;
+    }
+    .image{
+        margin-left: -50px;
+        width: 500px;
+    }
+    .profile{
+        margin-left: 0px;
+        width: 400px;
+    }
+  }
+  

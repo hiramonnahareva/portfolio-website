@@ -58,10 +58,12 @@
 
 @media only screen and (max-width: 913px) {
     .work_container{
-        display: grid;
-        grid-template-columns: repeat(2, 330px);
-        gap: 1.8rem;
-        justify-content: center;
-        padding-top: 1rem;
+        grid-template-columns: repeat(2, 1fr);
     }
     }
+    
+    @media only screen and (max-width: 790px) {
+        .work_container{
+         grid-template-columns: repeat(1, 1fr);
+        }
+        }

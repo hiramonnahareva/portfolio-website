@@ -14,12 +14,10 @@ const Popup = ({ portfolio_pro, eventValues }) => {
     const [click, setClick] = useState(true);
     const handleClick = () => {
         setClick(!click)
-        // console.log('ka')
     }
     return (
-        //    <dialog>
         <div className={`portfolio_popup ${!click ? 'popup-close' : ''}`}>
-            <div className="portfolio_popup-inner">
+            <div className="portfolio_popup-inner" data-aos="zoom-in-down">
                 {
                     portfolio_pro.filter(item => item.work_title === eventValues).map(item =>
                         <div style={{color: darkMode? 'black' : ''}} className="portfolio_popup-content">

@@ -9,20 +9,6 @@ const Contact = () => {
     const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-//   const form = useRef();
-
-//   const sendEmail = (e) => {
-//     e.preventDefault();
-
-    
-//     emailjs.sendForm('service_kb5zotq', 'template_hx4vy36', form.current, 'QPsBNRpvFsbr7Kbf4')
-//       .then((result) => {
-//           console.log(result.text);
-//       }, (error) => {
-//           console.log(error.text);
-//       });
-//   };
-
 const form = useRef();
 
 const sendEmail = (e) => {
@@ -39,15 +25,12 @@ const sendEmail = (e) => {
     return (
         <div id='Contact' className='contact-form'>
             <div className='left-side'>
-                {/* <div className="awesome"> */}
            <div>
            <span
            style={{
-            // background: darkMode? 'black' : '',
             color: darkMode? 'white' : '',
           }}
            >Contact Me</span> 
-            {/* </div> */}
             <div className='contact-icons'>
                 <a href="https://github.com/hiramonnahareva" target='_blank'><AiFillGithub className='c-icon'/></a>
                 <a href="https://www.linkedin.com/in/deveva/" target='_blank'><ImLinkedin2 className='c-icon'/></a>

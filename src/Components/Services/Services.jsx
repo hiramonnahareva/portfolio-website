@@ -25,17 +25,17 @@ const Services = () => {
             <div data-aos="zoom-in-down" className='single-service'>
                 <TbBrandJavascript className='icon'/>
                 <h2>Javascript</h2>
-                <span>Lorem ipsum dolor sit amet </span>
+                <span> JavaScript is the programming language of the Web.</span>
                 </div>
                 <div data-aos="zoom-in-down" id='service-middle' className='single-service'>
                 <SiReact className='icon'/>
                 <h2>React</h2>
-                <span>Lorem ipsum dolor sit </span>
+                <span>React is a declarative, efficient, and flexible JavaScript library.</span>
                 </div>
                 <div data-aos="zoom-in-down" className='single-service'>
                 <SiRedux className='icon'/>
                 <h2>Redux</h2>
-                <span>Lorem ipsum dolor sit amet</span>
+                <span>Redux is a predictable state container for JavaScript apps.</span>
                 </div>
             </div>
             
@@ -46,7 +46,8 @@ const Services = () => {
                 <span 
                 style={{color: darkMode? '#d3d3d3' : ''}}
                 className={'service-detail'}
-                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem eos, cupiditate possimus, totam laboriosam facere nulla, quibusdam sunt corrupti est incidunt modi aperiam! Dolores tempore culpa saepe soluta officiis error.</span>
+                >I am a Junior Frontend Developer who is passionate about coding. I like learning new things and also facing new challenges which improve my skills. when I solve a problem after wasting a few moments it makes me so pleased. So, I always search for an environment where I can improve myself. This year learned javascript, react, Node.js, Express.js, Next.js, and Redux. 
+                </span>
 
                 <a href="file.pdf" download='Resume'><button className='button service-btn'>Download</button></a>
                 <div className={`${darkMode ?  '' : "blur s-bulr1"}`} style={{background: darkMode? '' : '#fadced'}}></div>

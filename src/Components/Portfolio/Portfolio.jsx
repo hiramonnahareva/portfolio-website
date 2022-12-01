@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Portfolio.css';
 import image from '../../img/Screenshot 2022-11-19 230647.png';
 import image1 from '../../img/Screenshot 2022-11-20 135856.png';
@@ -8,9 +8,9 @@ import image4 from '../../img/Screenshot 2022-11-20 001812.png';
 import image5 from '../../img/Screenshot 2022-11-20 140914.png';
 import { AiOutlineArrowRight, AiOutlineClose } from 'react-icons/ai';
 import Popup from './Popup/Popup';
+import Aos from 'aos';
 
 const Portfolio = () => {
-
     const portfolio_pro = [
         {
             id: 1,
@@ -34,11 +34,11 @@ const Portfolio = () => {
             feature: "Web App",
             work_title: "Stock Spices",
             detail_title: 'MERN project',
-            details_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis accusamus sit aperiam esse at, blanditiis distinctio doloribus tenetur iure ea impedit facere alias error magnam placeat nesciunt eius id!',
+            details_description: 'This Website is a full-stack project. I Implement here user login, Admin panel, Dashboard etc. This all website is a Responsive with navigetion menu.',
             createDate: "29 April 2022",
             tech_name: 'React Node.js',
             role_name: "frontend",
-            liveLink: "https://spice-warehouse.firebaseapp.com/item",
+            liveLink: "https://spice-warehouse.firebaseapp.com/",
             clientCode: 'https://github.com/hiramonnahareva/warehouse-management-client-side',
             serverCode: 'https://github.com/hiramonnahareva/warehouse-management-server-side',
 
@@ -50,9 +50,9 @@ const Portfolio = () => {
             feature: "Web App",
             work_title: "Wisdom Teeth Removal",
             detail_title: 'Frontend project',
-            details_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis accusamus sit aperiam esse at, blanditiis distinctio doloribus tenetur iure ea impedit facere alias error magnam placeat nesciunt eius id!',
+            details_description: 'This Website is a full-stack project. I Implement here user login, Admin panel, Dashboard etc. This all website is a Responsive with navigetion menu.',
             createDate: "7 Jun 2022",
-            tech_name: 'html css React',
+            tech_name: 'html, css, javascript',
             role_name: "frontend",
             liveLink: "https://assignment-10-9be48.web.app/",
             clientCode: 'https://github.com/hiramonnahareva/independent-service-provider',
@@ -65,9 +65,9 @@ const Portfolio = () => {
             feature: "Web App",
             work_title: "Cat Food Review",
             detail_title: 'Frontend project',
-            details_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis accusamus sit aperiam esse at, blanditiis distinctio doloribus tenetur iure ea impedit facere alias error magnam placeat nesciunt eius id!',
+            details_description: 'This Website is a frontend project. I Implement here user login, Admin panel, Dashboard etc. This all website is a Responsive with navigetion menu.',
             createDate: "4 April 2022",
-            tech_name: 'html css React',
+            tech_name: 'html, css, javascript',
             role_name: "frontend",
             liveLink: "https://elegant-melba-17c1b9.netlify.app/",
             clientCode: 'https://github.com/hiramonnahareva/product-analysis-website',
@@ -80,11 +80,11 @@ const Portfolio = () => {
             feature: "Web App",
             work_title: "Beauty Products",
             detail_title: 'Frontend project',
-            details_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis accusamus sit aperiam esse at, blanditiis distinctio doloribus tenetur iure ea impedit facere alias error magnam placeat nesciunt eius id!',
+            details_description: 'This Website is a frontend project. User choose a rendom Items. This all website is a Responsive with navigetion menu.',
             createDate: "26 March 2022",
-            tech_name: 'html css React',
+            tech_name: 'html, css, javascript',
             role_name: "frontend",
-            liveLink: "https://github.com/hiramonnahareva/manufacturer-website-server-side",
+            liveLink: "https://roaring-fudge-f5bbdc.netlify.app/",
             clientCode: 'https://github.com/hiramonnahareva/lucky-one-product',
 
 
@@ -92,12 +92,12 @@ const Portfolio = () => {
         {
             id: 6,
             image: image5,
-            feature: "App",
+            feature: "Web App",
             work_title: "Phone Shop",
             detail_title: 'Frontend project',
-            details_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis accusamus sit aperiam esse at, blanditiis distinctio doloribus tenetur iure ea impedit facere alias error magnam placeat nesciunt eius id!',
+            details_description: 'This Website is a frontend project. I Implement here user login, Admin panel, Dashboard etc. This all website is a Responsive with navigetion menu.',
             createDate: "1 March 2022",
-            tech_name: 'Row javascript',
+            tech_name: 'html, Row javascript',
             role_name: "frontend",
             liveLink: "https://agitated-lalande-caa9e0.netlify.app/",
             clientCode: 'https://github.com/hiramonnahareva/phone-hunter',
@@ -136,7 +136,6 @@ const Portfolio = () => {
             {
                 !click && <Popup portfolio_pro={portfolio_pro} eventValues={eventValues}></Popup>
             }
-            {/* <Popup></Popup>  */}
         </div>
     );
 };

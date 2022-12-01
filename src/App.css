@@ -18,6 +18,12 @@
   color: var(--black);
   height: 100%;
 }
+.spinner{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .button{
   border-radius: 34px;
   border: none;

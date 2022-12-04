@@ -7,9 +7,9 @@ import Experience from './Components/Experiences/Experience';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Contact from './Components/Contact/Contact';
 import { useContext, useEffect, useState } from 'react';
-import ClipLoader from "react-spinners/ClipLoader";
 import { themeContext } from './Context';
 import ScrollToTop from "react-scroll-to-top";
+import { GridLoader } from 'react-spinners';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -53,10 +53,10 @@ function App() {
      {
     loading ? 
       <div className='spinner'>
-        <ClipLoader
+        <GridLoader
       color={'#e726ad'}
       loading={loading}
-      size={150}
+      size={25}
       aria-label="Loading Spinner"
       data-testid="loader"
     />

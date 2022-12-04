@@ -33,7 +33,7 @@ const Intro = () => {
                     // background: darkMode? 'black' : '',
                     color: darkMode? '#d3d3d3' : '',
                   }}
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae esse totam beatae deleniti sunt unde sint. Temporibus natus officiis facilis error, ea eius voluptates, molestias qui fugiat aut illo.</span>
+                >I am a Junior Frontend Developer who is passionate about coding. I like learning new things and also facing new challenges which improve my skills. when I solve a problem after wasting a few moments it makes me so pleased. So, I always search for an environment where I can improve myself. This year learned html, css, javascript, react and Redux.</span>
              </div>
              <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'><button className='button intro-btn'>Hire Me</button></Link>
                 <div className='intro-icons'>

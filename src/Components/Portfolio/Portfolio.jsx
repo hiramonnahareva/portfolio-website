@@ -107,10 +107,10 @@ const Portfolio = () => {
     ]
     const [click, setClick] = useState(true);
     const [eventValues, seteventValues] = useState();
+
     const handleClick = (work_title) => {
         setClick(!click)
         seteventValues(work_title)
-        // console.log(eventValues)
     }
     return (
         <div id='Portfolio'>

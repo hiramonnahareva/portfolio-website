@@ -46,7 +46,7 @@ const Services = () => {
                 <span 
                 style={{color: darkMode? '#d3d3d3' : ''}}
                 className={'service-detail'}
-                >I am a Junior Frontend Developer who is passionate about coding. I like learning new things and also facing new challenges which improve my skills. when I solve a problem after wasting a few moments it makes me so pleased. So, I always search for an environment where I can improve myself. This year learned javascript, react, Node.js, Express.js, Next.js, and Redux. 
+                >I have a good idea of HTML5, CSS3 for designing a web page and javascript for making a web page interactive as well good at react which is a javascript framework. As a CSS framework, I am good at Bootstrap5 & tailwind at the same time I know about GitHub, Netlify, Heroku, Visual Studio Code, Git, MS word, PowerPoint, and Figma. I have basic ideas at Node.js, Mongo DB, experss.js
                 </span>
 
                 <a href="file.pdf" download='Resume'><button className='button service-btn'>Download</button></a>

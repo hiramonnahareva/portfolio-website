@@ -8,7 +8,7 @@ const Popup = ({ portfolio_pro, eventValues }) => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     useEffect(()=> {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 500});
     }, [])
     console.log(eventValues)
     const [click, setClick] = useState(true);
@@ -44,7 +44,6 @@ const Popup = ({ portfolio_pro, eventValues }) => {
                 }
             </div>
         </div>
-        //    </dialog>
     );
 };
 

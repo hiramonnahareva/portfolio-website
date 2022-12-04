@@ -109,6 +109,8 @@
 @media only screen and (max-width: 913px) {
     .intro{
         display: block;
+        /* display: flex;
+        flex-direction: row; */
         /* height: 77vh; */
         height: 1100px;
         margin-top: 6rem;
@@ -116,7 +118,6 @@
   }
 @media only screen and (max-width: 790px) {
     .intro{
-        flex-direction: row;
         flex-direction: row-reverse;
         height: 1000px;
         margin-top: 20px;

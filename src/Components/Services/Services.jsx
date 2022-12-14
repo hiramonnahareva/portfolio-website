@@ -1,11 +1,8 @@
 import React, { useContext, useEffect } from 'react';
-import {SiRedux, SiJavascript, SiReact} from 'react-icons/si';
+import {SiRedux, SiReact} from 'react-icons/si';
 import {TbBrandJavascript} from 'react-icons/tb';
 import './Services.css';
 import Heart from '../../img/heartemoji.png';
-import glassesimoji from '../../img/glassesimoji.png';
-// import Heart from '../../img/heartemoji.png';
-import Humble from '../../img/humble.png';
 import Card from './Card/Card';
 import Aos from 'aos';
 import 'aos/dist/aos.css';

@@ -2,12 +2,16 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import Toggle from '../Toggle/Toggle';
+import image from '../../img/logo.png';
 
 const Navbar = () => {
     return (
         <div className='nav-wrapper'>
             <div className="nav-left">
-                <div className="nav-name">Eva</div>
+                {/* <div className="nav-name">Eva</div> */}
+                <div className="nav-name">
+                    <img src={image} alt="" />
+                </div>
                     <Toggle/>
                     </div>
                 <div className="nav-right">

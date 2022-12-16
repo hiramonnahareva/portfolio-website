@@ -1,15 +1,14 @@
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 50vh;
+    align-items: center;
+    height: 70vh;
     margin-top: 4rem;
     text-align: end;
 }
 .left-side{
     display: flex;
     margin-top: 60px;
-    /* margin-left: 60px; */
-    /* flex-direction: row; */
     justify-content: center;
     position: relative;
     flex: 1;
@@ -21,7 +20,7 @@
    margin-left: 20px;
 }
 .contact-icons{
-    margin-top: 2rem;
+    margin-top: 10px;
     margin-left: 20px ;
     display: flex;
     /* width: 20px; */
@@ -30,7 +29,7 @@
     /* padding-top: 60px; */
 }
 .c-icon{
-    font-size: 40px;
+    font-size: 30px;
     color: #e726ad;
 }
 .right-side{
@@ -61,17 +60,12 @@ textarea{
 /* ------------breakpoint-------------- */
 
 @media only screen and (max-width: 913px) {
-    /* .contact-form{
-        padding: 0 3rem 0 3rem;
-        display: flex;
-        height: 50vh;
-        margin-top: 4rem;
-        text-align: end;
-    } */
     .contact-form{
-        padding: 20px;
+        margin-top: 0rem;
+        margin-bottom: 60px;
+        padding: 0 10px;
         display: flex;
-        height: 65vh;
+        height: 70vh;
        flex-direction: column;
     }
     .right-side .user{

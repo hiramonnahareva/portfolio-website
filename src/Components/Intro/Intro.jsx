@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
-import {ImLinkedin2} from 'react-icons/im';
 import {BsInstagram} from 'react-icons/bs';
 import crown from '../../img/crown.png';
 import './Intro.css';
@@ -23,14 +22,12 @@ const Intro = () => {
              <div className="intro-name">
                 <span
                 style={{
-                    // background: darkMode? 'black' : '',
                     color: darkMode? 'white' : '',
                   }}
                 >Hi! I am</span>
                 <span>Hiramon Nahar Eva</span>
                 <span
                 style={{
-                    // background: darkMode? 'black' : '',
                     color: darkMode? '#d3d3d3' : '',
                   }}
                 >I am a Junior Frontend Developer who is passionate about coding. I like learning new things and also facing new challenges which improve my skills. when I solve a problem after wasting a few moments it makes me so pleased. So, I always search for an environment where I can improve myself. This year learned html, css, javascript, react and Redux.</span>
@@ -45,22 +42,11 @@ const Intro = () => {
              <div data-aos="fade-left" className="intro-right">
                 <img className='image' src={shape} alt="" />
                 <img className='profile' src={profile} alt="" />
-                {/* <img src={vactor2} alt="" />
-                <img src={boy} alt="" />
-                <img src={glassesimji} alt="" /> */}
                 <div style={{top: '50%', left: '65%'}}>
                     <FloatingDiv image={crown} text1='Web' text2='Developer'>
 
                     </FloatingDiv>
                 </div>
-                {/* <div style={{top: '-4%', left: '5%'}}>
-                    <FloatingDiv image={thumbup} text1='Best Design' text2='Award'>
-                    </FloatingDiv>
-                    <FloatingDiv image={crown} text1='Web' text2='Developer'>
-
-</FloatingDiv> */}
-                {/* </div> */}
-             {/* blur div */}
              <div className= {`${darkMode? '' : 'blur'}`}
               style={{background: 'rgb(253 220 228)'}}>
              </div>

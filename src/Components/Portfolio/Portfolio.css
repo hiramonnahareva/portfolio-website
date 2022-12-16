@@ -58,7 +58,9 @@
 
 @media only screen and (max-width: 913px) {
     .work_container{
+        margin-top: 40px;
         grid-template-columns: repeat(2, 1fr);
+        /* height: 60vh; */
     }
     }
     

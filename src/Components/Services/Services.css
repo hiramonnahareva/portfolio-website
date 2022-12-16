@@ -1,7 +1,8 @@
 .services{
     padding: 0 3rem 0 3rem;
     display: flex;
-    /* height: 90vh; */
+    height: 90vh;
+    align-items: center;
     /* margin: 40px 0; */
     /* margin-bottom: 50px; */
     flex-shrink: 0;
@@ -31,6 +32,9 @@
     color: var(--gray);
    font-size: 16px;
    margin-top: 1rem;
+   line-height: 24px;
+   font-weight: 100;
+   font-family: 'Istok Web', sans-serif;
 
 }  
 .service-detail{
@@ -55,7 +59,7 @@
     border-radius: 20px;
     height: 200px;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 /* #service-middle{
     margin-top: 50px;
@@ -66,6 +70,8 @@
 }
 @media only screen and (max-width: 790px) {
     .services{
+        margin-top: 8rem;
+        height: 800px;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
@@ -80,6 +86,9 @@
         width: 300px;
         margin-left: 0;
         margin-right: 0;
+    }
+    .single-service{
+        padding: 20px;
     }
     .awesome{
     padding-right: 20px;

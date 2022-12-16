@@ -28,10 +28,11 @@
     font-weight: bold;
 }
 .intro-name>:nth-child(3){
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 100;
     color: var(--gray);
+    font-family: 'Istok Web', sans-serif;
     margin-top: 10px;
 }
 .intro-btn{

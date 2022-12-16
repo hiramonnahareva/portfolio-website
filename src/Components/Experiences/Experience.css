@@ -1,3 +1,9 @@
+/* .container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 .title {
     color: var(--black);
     font-size: 20px;
@@ -10,7 +16,7 @@
     margin: 4rem 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 30px;
     flex-wrap: wrap;
     height: 300px;
@@ -19,7 +25,7 @@
 
 .experience {
     padding: 20px;
-    border-radius: 100px;
+    /* border-radius: 100px; */
     width: 100px;
     height: 100px;
     background: #ffffff;
@@ -28,48 +34,59 @@
 }
 
 .experience::before {
-    border-radius: 100%;
+    /* border-radius: 100%; */
     content: '';
     background-image: linear-gradient(270deg, #f088d1 0%, #e726ad 100%);
-    top: -8px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
     position: absolute;
     z-index: -1;
 
 }
 
 .experience>h2 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .percentage {
-    font-size: 20px;
-    color: #788097;
-    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #e726ad;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 790px) {
+    .container{
+        height: 60vh;
+        
+    }
     .experience {
-        padding: 6px;
-        border-radius: 100px;
-        width: 78px;
-        height: 78px;
+        /* border-radius: 100px; */
+        width: 70px;
+        height: 70px;
         background: #ffffff;
         text-align: center;
         position: relative;
     }
+    .experience-con {
+        height: 380px;    
+    }
     .experience::before {
-        border-radius: 100%;
+        /* border-radius: 100%; */
         content: '';
         background-image: linear-gradient(270deg, #f088d1 0%, #e726ad 100%);
-        top: -6px;
-        left: -6px;
-        right: -6px;
-        bottom: -6px;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
         position: absolute;
         z-index: -1;
+    
+    }
+    .title {
+        margin-top: 20rem;
     
     }
     .experience>h2 {

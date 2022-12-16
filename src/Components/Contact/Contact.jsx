@@ -1,8 +1,8 @@
 import React, { useContext, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { AiFillGithub } from 'react-icons/ai';
+
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { BsInstagram } from 'react-icons/bs';
-import { ImLinkedin2 } from 'react-icons/im';
 import { themeContext } from '../../Context';
 import './Contact.css';
 const Contact = () => {
@@ -32,8 +32,8 @@ const sendEmail = (e) => {
           }}
            >Contact Me</span> 
             <div className='contact-icons'>
-                <a href="https://github.com/hiramonnahareva" target='_blank'><AiFillGithub className='c-icon'/></a>
-                <a href="https://www.linkedin.com/in/deveva/" target='_blank'><ImLinkedin2 className='c-icon'/></a>
+                <a href="https://github.com/hiramonnahareva" target='_blank'><FiGithub className='c-icon'/></a>
+                <a href="https://www.linkedin.com/in/deveva/" target='_blank'><FiLinkedin className='c-icon'/></a>
                 <a href="https://www.instagram.com/dev_eva_/" target='_blank'><BsInstagram className='c-icon'/></a>
                 </div>
            </div>

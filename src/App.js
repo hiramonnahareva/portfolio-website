@@ -10,6 +10,7 @@ import { useContext, useEffect, useState } from 'react';
 import { themeContext } from './Context';
 import ScrollToTop from "react-scroll-to-top";
 import { GridLoader } from 'react-spinners';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -28,7 +29,7 @@ function App() {
       background: darkMode? 'black' : '',
       color: darkMode? 'white' : '',
     }}
-     className="App"
+     
     >
        <AnimatedCursor innerSize={8}
       outerSize={25}
@@ -63,13 +64,19 @@ function App() {
       </div>
       : 
       <div>
+        <div className="App "  style={{
+      background: darkMode? 'black' : '',
+      color: darkMode? 'white' : '',
+    }}>
       <Navbar></Navbar>
   <Intro></Intro>
   <Services></Services>
   <Experience></Experience>
   <Portfolio></Portfolio>
   <Contact></Contact>
+      </div>
   <ScrollToTop smooth color='#e726ad' height='20px' />
+  <Footer></Footer>
     </div>
      }
     </div>

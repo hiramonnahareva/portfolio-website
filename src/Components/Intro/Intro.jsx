@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { AiFillGithub } from 'react-icons/ai';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import {ImLinkedin2} from 'react-icons/im';
 import {BsInstagram} from 'react-icons/bs';
 import crown from '../../img/crown.png';
@@ -37,8 +37,8 @@ const Intro = () => {
              </div>
              <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'><button className='button intro-btn'>Hire Me</button></Link>
                 <div className='intro-icons'>
-                <a href="https://github.com/hiramonnahareva" target='_blank'><AiFillGithub className='icon'/></a>
-                <a href="https://www.linkedin.com/in/deveva/" target='_blank'><ImLinkedin2 className='icon'/></a>
+                <a href="https://github.com/hiramonnahareva" target='_blank'><FiGithub className='icon'/></a>
+                <a href="https://www.linkedin.com/in/deveva/" target='_blank'><FiLinkedin className='icon'/></a>
                 <a href="https://www.instagram.com/dev_eva_/" target='_blank'><BsInstagram className='icon'/></a>
                 </div>
              </div>   

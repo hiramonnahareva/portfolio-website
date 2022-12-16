@@ -28,8 +28,9 @@
     font-weight: bold;
 }
 .intro-name>:nth-child(3){
-    font-size: 17px;
-    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
     color: var(--gray);
     margin-top: 10px;
 }
@@ -38,7 +39,8 @@
     height: 2.5rem;
 }
 .intro-icons{
-    margin-top: 3rem;
+    border-bottom: 1px solid #e726ad;
+    width: 150px;
     display: flex;
     gap: 0;
 }

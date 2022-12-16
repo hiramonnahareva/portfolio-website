@@ -115,12 +115,6 @@ const Portfolio = () => {
     return (
         <div id='Portfolio'>
             <h1 className='portfolio-title'>My Portfolio</h1>
-            <div className='work_filters'>
-                <span className='work_item active-work'>All</span>
-                <span className='work_item '>Web</span>
-                <span className='work_item'>App</span>
-                <span className='work_item'>Design</span>
-            </div>
             <div className="work_container">
                 {
                     portfolio_pro.map(item => <div className="work_card" onClick={() => handleClick(item.work_title)}>

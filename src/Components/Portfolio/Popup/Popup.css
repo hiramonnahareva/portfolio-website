@@ -83,7 +83,7 @@
 }
 .details_info li a{
     text-transform: lowercase;
-    color: var(--orange);
+    color: var(--darkPink);
 }
 .code-link a{
     text-decoration: none;

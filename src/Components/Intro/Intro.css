@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 .intro-name>:nth-child(2){
-    color: var(--orange);
+    color: var(--darkPink);
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -126,7 +126,7 @@
         margin-top: 20px;
     }
     .intro-name>:nth-child(2){
-        /* color: var(--orange); */
+        /* color: var(--darkPink); */
         font-size: 1.5rem;
         /* font-weight: bold; */
     }

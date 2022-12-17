@@ -17,14 +17,14 @@ const Experience = () => {
                 <h1 style={{color: darkMode? 'white' : ''}}>Experience</h1>
             </div>
             <div className='experience-con'>
-                <div style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}} className='experience'>
+                <div style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6', color: darkMode? '#ef3aa6' : ''}} className='experience'>
                     <h2>HTML</h2>
                     <span 
                     style={{background: darkMode? 'black' : '', color: darkMode? 'white' : ''}}
                      className='percentage'><CountUp start={0} end={70} duration={2} delay={0} />%</span>
                 </div>
                 <div
-                style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}}
+                style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6',  color: darkMode? '#ef3aa6' : ''}}
                 className='experience'>
                     <h2>CSS</h2>
                     <span
@@ -32,7 +32,7 @@ const Experience = () => {
                     className='percentage'><CountUp start={0} end={80} duration={2} delay={0} />%</span>
                 </div>
                 <div
-                style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}}
+                style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6', color: darkMode? '#ef3aa6' : ''}}
                 className='experience'>
                     <h2>Javascript</h2>
                     <span
@@ -40,7 +40,7 @@ const Experience = () => {
                     className='percentage'><CountUp start={0} end={40} duration={2} delay={0} />%</span>
                 </div>
                 <div
-                style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}}
+                style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6', color: darkMode? '#ef3aa6' : ''}}
                 className='experience'>
                     <h2>React</h2>
                     <span 
@@ -48,7 +48,7 @@ const Experience = () => {
                     className='percentage'><CountUp start={0} end={50} duration={2} delay={0} />%</span>
                 </div>
                 <div
-                style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}}
+                style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6', color: darkMode? '#ef3aa6' : ''}}
                 className='experience'>
                     <h2>Redux</h2>
                     <span
@@ -56,7 +56,7 @@ const Experience = () => {
                     className='percentage'><CountUp start={0} end={30} duration={2} delay={0} />%</span>
                 </div>
                 <div
-                style={{background: darkMode? 'black' : '', color: darkMode? '#ef3aa6' : ''}}
+                style={{background: darkMode? 'black' : '', border: '1px solid #ef3aa6', color: darkMode? '#ef3aa6' : ''}}
                 className='experience'>
                     <h2>Next.js</h2>
                     <span

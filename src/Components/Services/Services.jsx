@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import {SiRedux, SiReact} from 'react-icons/si';
-import {TbBrandJavascript} from 'react-icons/tb';
+import {DiJavascript} from 'react-icons/di';
 import './Services.css';
 import Heart from '../../img/heartemoji.png';
 import Card from './Card/Card';
@@ -20,7 +20,7 @@ const Services = () => {
             {/* right side */}
             <div className='right-services'>
             <div data-aos="zoom-in-down" className='single-service'>
-                <TbBrandJavascript className='icon'/>
+                <DiJavascript className='icon'/>
                 <h2>Javascript</h2>
                 <span> JavaScript is the programming language of the Web.</span>
                 </div>

@@ -8,15 +8,21 @@
 }
 .left-side{
     display: flex;
-    margin-top: 60px;
     justify-content: center;
     position: relative;
     flex: 1;
 }
+
 .left-side>:nth-child(1){
     color: var(--black);
     font-size: 2.5rem;
     font-weight: bold;
+   margin-left: 20px;
+}
+.left-side>:nth-child(2){
+    color: var(--black);
+    font-size: 20px;
+    font-weight: thin;
    margin-left: 20px;
 }
 .contact-icons{
@@ -48,8 +54,9 @@
     width: 25rem;
     height: 2rem;
     padding: 0.3em;
+    padding-left: 10px;
     outline: none;
-    border: 2px solid var(--orange);
+    border: 2px solid var(--darkPink);
     border-radius: 8px;
     font-size: 16;
 }
@@ -67,6 +74,9 @@ textarea{
         display: flex;
         height: 70vh;
        flex-direction: column;
+    }
+    .left-side{
+    margin: 60px 0 20px 0;
     }
     .right-side .user{
         width: 18rem;

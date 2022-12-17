@@ -23,7 +23,7 @@
    font-weight: bold; 
 }
 .awesome>:nth-child(2){
-    color: var(--orange);
+    color: var(--darkPink);
    font-size: 2.5rem;
    font-weight: bold; 
 
@@ -59,7 +59,7 @@
     border-radius: 20px;
     height: 200px;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
 }
 /* #service-middle{
     margin-top: 50px;

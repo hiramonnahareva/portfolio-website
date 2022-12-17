@@ -51,11 +51,13 @@
 }
 
 .percentage {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     color: #e726ad;
     margin-top: 10px;
 }
+
+/* ------------breakpoint-------------- */
 
 @media only screen and (max-width: 790px) {
     .container{
@@ -74,7 +76,6 @@
         height: 380px;    
     }
     .experience::before {
-        /* border-radius: 100%; */
         content: '';
         background-image: linear-gradient(270deg, #f088d1 0%, #e726ad 100%);
         top: -1px;

@@ -3,8 +3,6 @@
     display: flex;
     height: 90vh;
     align-items: center;
-    /* margin: 40px 0; */
-    /* margin-bottom: 50px; */
     flex-shrink: 0;
 }
 .awesome{
@@ -14,7 +12,6 @@
     padding-right: 70px;
     padding-left: 20px;
     width: 600px;
-    /* gap: 2rem; */
 
 }
 .awesome>:nth-child(1){
@@ -58,12 +55,13 @@
     border: 2px solid #ef3aa6;
     border-radius: 20px;
     height: 200px;
+    font-family: 'Istok Web', sans-serif;
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
     padding: 20px;
 }
-/* #service-middle{
-    margin-top: 50px;
-} */
 .single-service>h2{
     padding: 0px;
     color: #ef3aa6;
@@ -79,10 +77,8 @@
         padding-right: 0;
     }
     .right-services{
-        /* display: flex; */
         display: grid;
         grid-template-columns: 1fr;
-        /* gap: 20px; */
         width: 300px;
         margin-left: 0;
         margin-right: 0;

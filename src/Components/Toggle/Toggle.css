@@ -7,6 +7,7 @@
     color: #e726ad;
     position: relative;
     cursor: pointer;
+    margin-left: 20px;
 }
 .toggle *{
     width: 1rem;
@@ -19,4 +20,13 @@
     background: var(--darkPink);
     position: absolute;
     
+}
+
+@media only screen and (max-width: 790px) {
+    .toggle{
+        width: 35px;
+        position: absolute;
+        bottom: 52px;
+        left: 197px;
+    }
 }

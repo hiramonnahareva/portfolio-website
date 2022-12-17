@@ -40,9 +40,21 @@ const sendEmail = (e) => {
             </div>
             <div className="right-side">
             <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="from_name" className='user' placeholder='Name'/>
-                <input type="email" name="to_name" className='user' placeholder='Email'/>
-                <textarea name="message" className='user' placeholder='Message'></textarea>
+                <input 
+                style={{
+                    color: darkMode? 'white' : '',
+                  }}
+                type="text" name="from_name" className='user' placeholder='Name'/>
+                <input
+                style={{
+                    color: darkMode? 'white' : '',
+                  }} 
+                 type="email" name="to_name" className='user' placeholder='Email'/>
+                <textarea
+                style={{
+                    color: darkMode? 'white' : '',
+                  }}
+                 name="message" className='user' placeholder='Message'></textarea>
                 <input type="submit" className='button' value="send"/>
             </form>
 

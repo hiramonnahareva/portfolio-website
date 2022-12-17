@@ -12,14 +12,8 @@
     z-index: 1111;
     transition: .3s;
     cursor: pointer;
-    /* opacity: 0; */
-    /* visibility: hidden; */
 
 }
-/* .portfolio_popup.open{
-    opacity: 1;
-    visibility: visible;
-} */
 .popup-close{
     visibility: hidden;
 }
@@ -30,6 +24,8 @@
     padding: 2.5rem;
     z-index: 1111111;
     position: relative;
+    
+    font-family: 'Istok Web', sans-serif;
 }
 .portfolio_popup-content{
     display: grid;
@@ -56,6 +52,10 @@
     font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 20px;
+}
+.details_description{
+    
+    line-height: 24px;
 }
 .details_info{
     padding-left: 10px;
@@ -97,7 +97,6 @@
 @media only screen and (max-width: 913px) {
     .pp_thumbnail img{
         width: 90%;
-        /* padding: 20px; */
     }
     .portfolio_popup-content{
         display: grid;

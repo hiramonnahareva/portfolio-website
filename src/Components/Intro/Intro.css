@@ -95,17 +95,6 @@
     font-size: 50px;
     color: #e726ad;
 }
-.blur {
-    position: absolute;
-    width: 22rem;
-    height: 14rem;
-    border-radius: 50%;
-    background-color: #e726ad;
-    z-index: -11111;
-    top: -11%;
-    left: 56%;
-    filter: blur(72px);
-}
 
 /* ------------breakpoint-------------- */
 

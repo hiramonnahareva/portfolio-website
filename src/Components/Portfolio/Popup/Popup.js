@@ -20,7 +20,7 @@ const Popup = ({ portfolio_pro, eventValues }) => {
             <div className="portfolio_popup-inner" data-aos="zoom-in-down">
                 {
                     portfolio_pro.filter(item => item.work_title === eventValues).map(item =>
-                        <div style={{color: darkMode? 'black' : ''}} className="portfolio_popup-content">
+                        <div style={{color: darkMode? "hsl(240deg 47% 19%)" : ''}} className="portfolio_popup-content">
                             <span className="portfolio_popup-close" onClick={handleClick}><AiOutlineClose /></span>
                             <div className="pp_thumbnail">
                                 <img src={item.image} width='400px' alt="" className="portfolio_popup-img" />

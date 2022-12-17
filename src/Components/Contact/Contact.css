@@ -2,7 +2,7 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     align-items: center;
-    height: 70vh;
+    height: 78vh;
     margin-top: 4rem;
     text-align: end;
 }
@@ -58,10 +58,14 @@
     outline: none;
     border: 2px solid var(--darkPink);
     border-radius: 8px;
-    font-size: 16;
+    font-size: 18px;
+    background: none;
+    font-family: 'Istok Web', sans-serif;
 }
 textarea{
     height: 5rem!important;
+    width: 25rem;
+    
 }
 
 /* ------------breakpoint-------------- */
@@ -80,5 +84,6 @@ textarea{
     }
     .right-side .user{
         width: 18rem;
+        font-size: 15px;
     }
 }

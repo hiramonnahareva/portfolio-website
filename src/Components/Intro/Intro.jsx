@@ -43,19 +43,15 @@ const Intro = () => {
                 <img className='image' src={shape} alt="" />
                 <img className='profile' src={profile} alt="" />
                 <div style={{top: '50%', left: '65%'}}>
-                    <FloatingDiv image={crown} text1='Web' text2='Developer'>
+                    <FloatingDiv image={crown} text1='Jr.Web' text2='Developer'>
 
                     </FloatingDiv>
                 </div>
-             <div className= {`${darkMode? '' : 'blur'}`}
+             <div className= {`${darkMode? '' : ''}`}
               style={{background: 'rgb(253 220 228)'}}>
              </div>
-             <div className= {`${darkMode? '' : 'blur'}`} style={{
+             <div className= {`${darkMode? '' : ''}`} style={{
                  background: darkMode? '' : '#ffc1e4' , 
-                 top: '19rem',
-                 width: '21rem',
-                 height: '11rem',
-                 left:'-4rem',
             }}>
              </div>
              </div>

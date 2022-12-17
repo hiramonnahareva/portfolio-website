@@ -26,7 +26,7 @@ function App() {
   return (
     <div
     style={{
-      background: darkMode? 'black' : '',
+      background: darkMode? "linear-gradient(250deg, hsl(240deg 47% 19%) 0%, hsl(291deg 53% 13%) 100%)" : '',
       color: darkMode? 'white' : '',
     }}
      
@@ -65,7 +65,7 @@ function App() {
       : 
       <div>
         <div className="App "  style={{
-      background: darkMode? 'black' : '',
+      background: darkMode? "linear-gradient(250deg, hsl(240deg 47% 19%) 0%, hsl(291deg 53% 13%) 100%)" : '',
       color: darkMode? 'white' : '',
     }}>
       <Navbar></Navbar>
@@ -75,7 +75,7 @@ function App() {
   <Portfolio></Portfolio>
   <Contact></Contact>
       </div>
-  <ScrollToTop smooth color='#e726ad' height='20px' />
+  <ScrollToTop smooth color='#e726ad' height='20px' style={{zIndex:"111"}} />
   <Footer></Footer>
     </div>
      }

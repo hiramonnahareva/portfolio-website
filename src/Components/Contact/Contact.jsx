@@ -44,17 +44,17 @@ const sendEmail = (e) => {
                 style={{
                     color: darkMode? 'white' : '',
                   }}
-                type="text" name="from_name" className='user' placeholder='Name'/>
+                type="text" name="from_name" className='user' placeholder='Name' required/>
                 <input
                 style={{
                     color: darkMode? 'white' : '',
                   }} 
-                 type="email" name="to_name" className='user' placeholder='Email'/>
+                 type="email" name="to_name" className='user' placeholder='Email' required/>
                 <textarea
                 style={{
                     color: darkMode? 'white' : '',
                   }}
-                 name="message" className='user' placeholder='Message'></textarea>
+                 name="message" className='user' placeholder='Message' required></textarea>
                 <input type="submit" className='button' value="send"/>
             </form>
 

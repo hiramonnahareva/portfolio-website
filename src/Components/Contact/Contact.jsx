@@ -17,9 +17,9 @@ const sendEmail = (e) => {
 
   emailjs.sendForm('service_kb5zotq', 'template_hx4vy36', form.current, 'QPsBNRpvFsbr7Kbf4')
     .then((result) => {
-      swal("Good job!", "Your Message Successfully Sent.", "success");
+      swal("Good job!", "Your Message was Sent Successfully.", "success");
     }, (error) => {
-        console.log(error.text);
+      swal("Sorry..!", "Something wants wrong.", "error");
     });
 };
 

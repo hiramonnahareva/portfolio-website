@@ -1,5 +1,6 @@
 import React, { useContext, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { BsInstagram } from 'react-icons/bs';
@@ -16,7 +17,7 @@ const sendEmail = (e) => {
 
   emailjs.sendForm('service_kb5zotq', 'template_hx4vy36', form.current, 'QPsBNRpvFsbr7Kbf4')
     .then((result) => {
-        console.log(result.text);
+      swal("Good job!", "Your Message Successfully Sent.", "success");
     }, (error) => {
         console.log(error.text);
     });
